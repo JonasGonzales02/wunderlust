@@ -722,4 +722,38 @@ footer a {
     #testimonials h4 {
         font-size: 16pt;
     }
+    #about {
+        padding: 80px;
+    }
+     #contact {
+        padding: 40px;
+    }
+    #about div {
+        justify-content: center;
+        gap: 70px;
+    }
+    #names {
+        padding: 0;
+    }
+    fieldset {
+        margin-bottom: 16px;
+    }
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 4.5fr 1fr 1fr;
+        padding: 30px 80px;
+    }
+    footer a {
+        justify-self: end;
+    }
+    footer p {
+        justify-self: start;
+    }
+}
+
 
