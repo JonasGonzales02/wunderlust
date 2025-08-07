@@ -60,6 +60,14 @@ table {
     --white: #ffffff;
     --black: #000000;
 }
+#skip, .sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
 
 h1, h2, h3 {
     font-family: 'Molle', cursive;
@@ -294,5 +302,31 @@ header h1, header p {
     justify-items: center;
     align-items: center;
     text-align: center;
+}
+#fName, #lName, #email, #phone {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    border: var(--purple) solid 2px;
+    padding-left: 20px;
+    box-sizing:border-box
+}
+#contact div label ~ input{
+    display: block;
+}
+#contact label {
+    font-weight: bold;
+}
+#contact input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--black);
+}
+.radio-input input[type="radio"] {
+    display: none;
+}
+.radio-input {
+    display: inline-block;
+    position: relative;
+    padding: 10px 10px 10px 0;
 }
 
