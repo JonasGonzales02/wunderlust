@@ -174,3 +174,53 @@ p, q, nav a, form, label {
     background-color: var(--black);
     color: var(--white);
 }
+#intro {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#intro h2, #intro p{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#img-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+header h1, header p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#plan {
+    background-color: var(--yellow);
+    padding: 30px;
+}
+
+#plan h3 {
+    padding: 0 10px 10px 10px;
+}
+
+#plan div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+}
+
+#plan div section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--teal);
+    padding: 30px;
+    border: var(--white) solid 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+#img-grid img, #img-grid picture {
+    width: 100%;
+    height: 300px;
+}
