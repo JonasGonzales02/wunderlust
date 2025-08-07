@@ -339,6 +339,10 @@ header h1, header p {
     display: inline-block;
     vertical-align: middle;
 }
+.radio-input input[type="radio"]:checked + .radio-control::after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
 .radio-control::after {
     content: '';
     width: 25px;
