@@ -126,3 +126,37 @@ p, q, nav a, form, label {
 #menu-toggle {
     display: block;
 }
+#menu-toggle ul {
+    position: absolute;
+    top: 70px;
+    padding: 0;
+    max-height: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--teal);
+    list-style-type: none;
+}
+
+
+
+#menu-toggle ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+#menu-toggle a {
+    display: block;
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+
+#menu-toggle a:visited {
+    color: var(--black);
+}
+
+#menu-toggle li:hover {
+    background-color: var(--yellow);
+}
