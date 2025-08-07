@@ -137,9 +137,6 @@ p, q, nav a, form, label {
     background-color: var(--teal);
     list-style-type: none;
 }
-
-
-
 #menu-toggle ul li {
     display: flex;
     justify-content: center;
@@ -152,11 +149,28 @@ p, q, nav a, form, label {
     color: var(--black);
     font-weight: bold;
 }
-
-#menu-toggle a:visited {
-    color: var(--black);
-}
-
 #menu-toggle li:hover {
     background-color: var(--yellow);
+}
+#menu-toggle ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+#menu-toggle input ~ ul {
+    display: none;
+} 
+#menu-toggle input:checked ~ ul {
+    display: block;
+    max-height: 500px;
+} 
+#menu-toggle input:checked ~ label {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: var(--black);
+    color: var(--white);
 }
