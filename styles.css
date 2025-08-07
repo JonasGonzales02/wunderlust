@@ -339,9 +339,6 @@ header h1, header p {
     display: inline-block;
     vertical-align: middle;
 }
-.radio-input input[type="radio"]:checked + .radio-control::after {
-    transform: translate(-50%, -50%) scale(1);
-}
 
 .radio-control::after {
     content: '';
@@ -353,6 +350,14 @@ header h1, header p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
+}
+.form-required {
+    font-size: 16pt;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+.required {
+    color: var(--purple);
 }
 #prefEmail, #prefText, #prefPhone {
     width: 50px;
@@ -392,4 +397,19 @@ input[type=submit] {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
     box-sizing:border-box
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    background-color: var(--light-gray);
+    padding: 20px 0;
+}
+footer p {
+    font-size: 12pt;
+}
+footer a {
+    text-decoration: none;
+    color: var(--black);
 }
