@@ -84,3 +84,19 @@ h3 {
 h4 {
     font-size: 15pt;
 }
+header {
+    background: rgb(85,188,213);
+    background: linear-gradient(180deg, rgba(85,188,213,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+header img {
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+p {
+    line-height: 2rem;
+}
+p, q, nav a, form, label {
+    font-size: 14pt;
+}
