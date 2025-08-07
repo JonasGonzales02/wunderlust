@@ -251,3 +251,48 @@ header h1, header p {
     justify-content: center;
     padding: 0 30px;
 }
+#testimonials h4 {
+    font-weight: bold;
+}
+#about {
+    padding: 40px;
+    background-color: var(--blue)
+}
+#about h4 {
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#about div section {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+#about div {
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+#about img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 10px; 
+}
+#about p {
+    font-size: 12pt;
+}
+#contact {
+    margin: 40px;
+}
+#about div section {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
