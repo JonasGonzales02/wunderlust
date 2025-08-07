@@ -100,3 +100,29 @@ p {
 p, q, nav a, form, label {
     font-size: 14pt;
 }
+#menu-toggle input {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    left: -10000px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+#menu-toggle label {
+    position: absolute;
+    display: flex;
+    right: 0px;
+    width: 150px;
+    top: 30px;
+    height: 40px;
+    background-color: var(--yellow);
+    z-index: 2;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+#menu-toggle {
+    display: block;
+}
