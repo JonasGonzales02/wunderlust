@@ -591,4 +591,68 @@ footer a {
         grid-column: 1 / -1; 
         height: 100%;
     }
-    
+    #img-grid img:nth-child(1), 
+    #img-grid img:nth-child(2) {
+        grid-column: span 1; 
+        height: 100%;
+    }
+    #plan {
+        padding: 60px;
+    }
+    #plan img {
+        width: 250px;
+        height: 250px;
+    }
+    #plan div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;    
+    }
+    #testimonials {
+        padding: 60px;
+    }
+    #testimonials p, q {
+        font-size: 18pt;
+    }
+    #testimonials h4 {
+        font-size: 24pt;
+    }
+    #testimonials div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;  
+    }
+    #about {
+        padding: 60px;
+    }
+    #about img {
+        width: auto;
+        height: 120px;
+        object-fit: contain;
+        margin-bottom: 10px; 
+    }
+    #about div {
+        grid-template-columns: auto auto auto auto;
+    }
+    fieldset {
+        display: flex;
+        justify-content: space-between;
+    }
+    input[type=submit]{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    footer {
+        flex-direction: row;
+        padding: 30px 60px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer a, footer p {
+        font-size: 13pt;
+    }
+}
