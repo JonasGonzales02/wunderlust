@@ -743,6 +743,10 @@ footer a {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
     }
+    .custom-select select {
+        height: 60px;
+        margin-bottom: 20px;
+    }
     footer {
         display: grid;
         grid-template-columns: 4.5fr 1fr 1fr;
